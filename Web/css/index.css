@@ -579,7 +579,7 @@ img {
 	font-family: "Vollkorn", serif;
 	font-weight: 400;
 	color: #000000;
-	text-align: left;
+	text-align: justify;
 }
 
 .l-card__text p::after {
