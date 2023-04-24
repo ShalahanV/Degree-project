@@ -358,7 +358,7 @@ font-family: 'Shantell Sans', cursive;
   =========================================================================================
   */
   
-  .footer-wrap {
+ .footer-wrap {
     padding-top: 43px;
     background-size: cover;
 }
@@ -459,8 +459,8 @@ font-family: 'Shantell Sans', cursive;
 }
 
 .copyright {
-    border-top: 1px solid #111;
-    font-size: 14px;
+  border-top: 1px solid #111;
+    font-size: 14px; 
     color: #ccc;
     padding-top: 15px;
     text-align: center;
@@ -804,12 +804,7 @@ textarea {
   color: #000;
 }
 
-.copyright {
-  font: 200 14px 'Oswald', sans-serif;
-  color: #000000;
-  letter-spacing: 1px;
-  text-align: center;
-}
+
 
 hr {
   border-color: rgba(255,255,255,.6);
