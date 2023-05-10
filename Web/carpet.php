@@ -1,0 +1,286 @@
+<html>
+   <!--Це файл filel.html-->
+   <head>
+    <title>STYLE</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=IBM+Plex+Serif:wght@600&family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=IBM+Plex+Serif:wght@600&family=Montserrat+Alternates:wght@200&family=Noto+Serif:ital,wght@1,700&family=Tenor+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/organizer.css" media="all">      
+   </head>
+<body>
+    <div id="wrapper">
+      <?php require 'header.php'; ?>
+              
+         <div class="pricing4 py-5 bg-light">
+          <div class="container">
+            <!-- Row  -->
+            <div class="row justify-content-center">
+              <div class="col-md-8 text-center" style="right: -180px;">
+                <h3 class="mb-3" >Шкіряний килимок</h3>
+                <br>
+              </div>
+            </div>
+            <!-- Row  -->
+            <div class="row mt-4">
+              <!-- Column -->
+              <div class="col-md-4">
+                <div class="card card-shadow border-0 mb-4">
+                  <img class="card-img-top" src="Images/il_1588xN.4695366806_kth8.webp" alt="wrappixel kit" height="270px" width="358px">
+                  <div class="p-3">
+                    <h5 class="font-weight-medium mb-0">Килим E4FTN</h5>
+                    <h6 class="subtitle font-13">Матеріали: PU шкіра</h6>
+                    <ul class="list-inline font-14 mt-3">
+                      <li class="py-1"><i class="icon-check text-success"></i> РОЗМІРИ: </li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> ширина - 60 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> довжина - 90 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> товщина - 0,5 см</li>
+                    </ul>
+                    <div class="d-flex mt-3 align-items-center">
+                      <h2 class="price">850 ₴</h2>
+                      <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0" href="more_details_carpet1.php">Переглянути</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Column -->
+              <div class="col-md-4">
+                <div class="card card-shadow border-0 mb-4">
+                  <img class="card-img-top" src="Images/il_1588xN.4558750846_gjfz.webp" alt="wrappixel kit"  height="270px" width="358px">
+                  <div class="p-3">
+                    <h5 class="font-weight-medium mb-0">Килим TY43W</h5>
+                    <h6 class="subtitle font-13">Матеріали: Еко-шкіра</h6>
+                    <ul class="list-inline font-14 mt-3">
+                      <li class="py-1"><i class="icon-check text-success"></i> РОЗМІРИ: </li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> ширина - 60 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> довжина - 100 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> товщина - 0,5 см </li>
+                    </ul>
+                    <div class="d-flex mt-3 align-items-center">
+                      <h2 class="price">500 ₴</h2>
+                      <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0" href="more_details_carpet2.php">Переглянути</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Column -->
+              <div class="col-md-4">
+                <div class="card card-shadow border-0 mb-4">
+                  <img class="card-img-top" src="Images/il_1588xN.4728976345_3vcx.webp" alt="wrappixel kit"  height="270px" width="358px">
+                  <div class="p-3">
+                    <h5 class="font-weight-medium mb-0">Килим GRTY0</h5>
+                    <h6 class="subtitle font-13">Матеріали: Якісна шкіра</h6>
+                    <ul class="list-inline font-14 mt-3">
+                      <li class="py-1"><i class="icon-check text-success"></i> РОЗМІРИ: </li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> ширина - 60 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> довжина - 100 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> товщина - 0,5 см </li>
+                    </ul>
+                    <div class="d-flex mt-3 align-items-center">
+                      <h2 class="price">800 ₴</small></h2>
+                      <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0" href="more_details_carpet3.php">Переглянути</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="pricing5 py-5 bg-light" style="margin-top: -400px;">
+          <div class="container">
+            <!-- Row  -->
+            <!-- Row  -->
+            <div class="row mt-4">
+              <!-- Column -->
+              <div class="col-md-4">
+                <div class="card card-shadow border-0 mb-4">
+                  <img class="card-img-top" src="Images/il_1588xN.2474361023_akdc.webp" alt="wrappixel kit" height="270px" width="358px">
+                  <div class="p-3">
+                    <h5 class="font-weight-medium mb-0">Килим DKSIN</h5>
+                    <h6 class="subtitle font-13">Матеріали: Верхня зерниста шкіра</h6>
+                    <ul class="list-inline font-14 mt-3">
+                      <li class="py-1"><i class="icon-check text-success"></i> РОЗМІРИ: </li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> ширина - 15 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> довжина - 15 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> товщина - 0,5 см </li>
+                    </ul>
+                    <div class="d-flex mt-3 align-items-center">
+                      <h2 class="price">400 ₴</h2>
+                      <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0" href="more_details_carpet4.php">Переглянути</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Column -->
+              <div class="col-md-4">
+                <div class="card card-shadow border-0 mb-4">
+                  <img class="card-img-top" src="Images/il_1588xN.3336991929_6r2p.webp" alt="wrappixel kit"  height="270px" width="358px">
+                  <div class="p-3">
+                    <h5 class="font-weight-medium mb-0">Килим SDWAX</h5>
+                    <h6 class="subtitle font-13">Матеріали: Справжня шкіра</h6>
+                    <ul class="list-inline font-14 mt-3">
+                      <li class="py-1"><i class="icon-check text-success"></i> РОЗМІРИ: </li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> ширина - 15  та 50 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> довжина - 15 та 50 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> товщина - 0,5 см </li>
+                    </ul>
+                    <div class="d-flex mt-3 align-items-center">
+                      <h2 class="price">900 ₴</h2>
+                      <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0" href="more_details_carpet5.php">Переглянути</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Column -->
+              <div class="col-md-4">
+                <div class="card card-shadow border-0 mb-4">
+                  <img class="card-img-top" src="Images/il_1588xN.3949519743_ld1b.avif" alt="wrappixel kit"  height="270px" width="358px">
+                  <div class="p-3">
+                    <h5 class="font-weight-medium mb-0">Килим JLO9R</h5>
+                    <h6 class="subtitle font-13">Матеріали: Верхня зерниста шкіра</h6>
+                    <ul class="list-inline font-14 mt-3">
+                      <li class="py-1"><i class="icon-check text-success"></i> РОЗМІРИ: </li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> ширина - 60 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> довжина - 100 см</li><br>
+                      <li class="py-1"><i class="icon-check text-success"></i> товщина - 0,5 см </li>
+                    </ul>
+                    <div class="d-flex mt-3 align-items-center">
+                      <h2 class="price">700 ₴</small></h2>
+                      <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0" href="more_details_carpet6.php">Переглянути</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <div class="footer-wrap">
+            <div class="container first_class">
+                <div class="row">
+                  <div class="col-md-4 col-sm-6">
+                    <h3>ДІЗНАЙТЕСЯ ПЕРШИМ</h3>
+                    <p>Отримайте найновішу інформацію про нові аксесуари STYLE.</p>
+                  </div>
+                  <div class="col-md-4 col-sm-6">
+                  <form class="newsletter">
+                     <input type="text" placeholder="Email Address"> 
+                                                                  <button class="newsletter_submit_btn" type="submit"><i class="fa fa-paper-plane"></i></button>  
+                  </form>
+                  
+                  </div>
+                  <div class="col-md-4 col-sm-6">
+                  <div class="col-md-12">
+                    <div class="standard_social_links">
+                  <div>
+                    <li class="round-btn btn-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+          
+                    </li>
+                    <li class="round-btn btn-linkedin"><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+          
+                    </li>
+                    <li class="round-btn btn-twitter"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          
+                    </li>
+                    <li class="round-btn btn-instagram"><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          
+                    </li>
+                    <li class="round-btn btn-whatsapp"><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+          
+                    </li>
+                    <li class="round-btn btn-envelop"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          
+                    </li>
+                  </div>
+                </div>  
+                  </div>
+                    <div class="clearfix"></div>
+                  <div class="col-md-12"><h3 style="text-align: right;">ЗАЛИШАЙСЯ НА ЗВ'ЯЗКУ</h3></div>
+                  </div>
+                </div>
+            </div>
+            <div class="second_class">
+              <div class="container second_class_bdr">
+              <div class="row">
+                <div class="col-md-4 col-sm-6">
+
+                  <p>Аксесуари з натуральної шкіри нашого виробництва мають цілу низку переваг:<br>
+
+                      -ми виготовляємо лаконічні аксесуари, які легко інтегрувати в будь-які образи. Вони не підвладні модним примхам і завжди будуть лишатися актуальними; <br>
+                      -всі наші аксесуари виготовлено повністю вручну;<br>
+                      -наші вироби проходять три рівні перевірки якості під час виробництва;<br>
+                      -ми використовуємо тільки кращі види шкіри та якісну фурнітуру;<br>
+                      -на всі шкіряні аксесуари ми надаємо гарантію – 3 роки, з моменту покупки;<br>
+                      -у нас широкий каталог продуктів і ви легко можете підібрати аксесуари один до одного.</p>
+                </div>
+                <div class="col-md-2 col-sm-6">
+                  <h3>Сертифікат</h3>
+                  <p>Сертифікат - це чудовий спосіб зробити подарунок  своїм рідним. <br>
+                      Придбання подарункового сертифіката дозволяє отримати право на певну суму, яка може бути використана для покупки будь-якого товару в інтернет-магазині.</p>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <h3>Співпраця</h3>
+                  <p>
+                      Ми зацікавлені в співпраці з іншими компаніями та брендами для розвитку свого бізнесу і розширення аудиторії клієнтів.<br>
+                      Якщо ви зацікавлені в співпраці, можете написати нам на електронну адресу.
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <h3>ТОП-товари</h3>
+                  <ul class="footer-links">
+                    <li><a href="more_details_bag6.php">Сумка IFJVN</a>
+                    </li>
+        
+                    <li><a href="more_details_wallet6.php">Портмоне SU7G</a>
+                    </li>
+                    <li><a href="more_details_belt5.php">Ремінь QASDN01</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+            </div>
+              
+              <div class="row">
+                
+                <div class="container-fluid">
+                <div class="copyright"> STYLE 2023 | Viktoriia Shalahan and Bohdana Sanotska</div>
+                </div>
+                
+              </div>
+            </div>
+            
+            </footer>
+          
+          <!--footer end-->
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+            
+            <!-- Font Awesome 5 links-->
+            <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
+        
+    </div>
+    </body>
+    </html>

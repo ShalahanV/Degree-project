@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=IBM+Plex+Serif:wght@600&family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=IBM+Plex+Serif:wght@600&family=Montserrat+Alternates:wght@200&family=Noto+Serif:ital,wght@1,700&family=Tenor+Sans&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/organizer.css" media="all">      
+    <title>STYLE</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="robots" content="noindex,follow" />
+
+  </head>
+
+  <body>
+    <?php require 'header.php'; ?>
+    <main class="container">
+
+      <!-- Left Column / Headphones Image -->
+      <div class="left-column">
+        <img data-image="brown" class="active" src="Images/il_1588xN.4018492460_1izq.avif" alt="" height="430px">
+      </div>
+
+
+      <!-- Right Column -->
+      <div class="right-column">
+
+        <!-- Product Description -->
+        <div class="product-description">
+          <span>Шкіряний ремінь</span>
+          <h1>Pемінь HTYD34H</h1>
+          <p>Всі товари, представлені в нашому магазині, виготовлені вручну в нашій сімейній майстерні.
+            Ми докладаємо всіх зусиль і дбаємо про кожну деталь кожного продукту. Ми дуже добре знаємо, наскільки важливі елегантність і непідвладність часу шкіряні вироби.</p>
+        </div>
+
+        <!-- Product Configuration -->
+        <div class="product-configuration">
+
+          <!-- Product Color -->
+          <div class="product-color">
+            <span>Колір</span>
+
+            <div class="color-choose">
+              
+              <div>
+                <input data-image="brown" type="radio" id="brown" name="color" value="brown">
+                <label for="brown"><span></span></label>
+              </div>
+            </div>
+
+          </div>
+
+          
+
+        <!-- Product Pricing -->
+        <div class="product-price">
+          <span>800 ₴</span>
+          <a href="#" class="cart-btn">Купити</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <footer>
+        <div class="footer-wrap">
+        <div class="container first_class">
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <h3>ДІЗНАЙТЕСЯ ПЕРШИМ</h3>
+                <p>Отримайте найновішу інформацію про нові аксесуари STYLE.</p>
+              </div>
+              <div class="col-md-4 col-sm-6">
+              <form class="newsletter">
+                 <input type="text" placeholder="Email Address"> 
+                                                              <button class="newsletter_submit_btn" type="submit"><i class="fa fa-paper-plane"></i></button>  
+              </form>
+              
+              </div>
+              <div class="col-md-4 col-sm-6">
+              <div class="col-md-12">
+                <div class="standard_social_links">
+              <div>
+                <li class="round-btn btn-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
+      
+                </li>
+                <li class="round-btn btn-linkedin"><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+      
+                </li>
+                <li class="round-btn btn-twitter"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+      
+                </li>
+                <li class="round-btn btn-instagram"><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+      
+                </li>
+                
+                <li class="round-btn btn-envelop"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      
+                </li>
+              </div>
+            </div>  
+              </div>
+                <div class="clearfix"></div>
+              <div class="col-md-12"><h3 style="text-align: right;">ЗАЛИШАЙСЯ НА ЗВ'ЯЗКУ</h3></div>
+              </div>
+            </div>
+        </div>
+        <div class="second_class">
+          <div class="container second_class_bdr">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+
+              <p>Аксесуари з натуральної шкіри нашого виробництва мають цілу низку переваг:<br>
+
+                  -ми виготовляємо лаконічні аксесуари, які легко інтегрувати в будь-які образи. Вони не підвладні модним примхам і завжди будуть лишатися актуальними; <br>
+                  -всі наші аксесуари виготовлено повністю вручну;<br>
+                  -наші вироби проходять три рівні перевірки якості під час виробництва;<br>
+                  -ми використовуємо тільки кращі види шкіри та якісну фурнітуру;<br>
+                  -на всі шкіряні аксесуари ми надаємо гарантію – 3 роки, з моменту покупки;<br>
+                  -у нас широкий каталог продуктів і ви легко можете підібрати аксесуари один до одного.</p>
+            </div>
+            <div class="col-md-2 col-sm-6">
+              <h3>Сертифікат</h3>
+              <p>Сертифікат - це чудовий спосіб зробити подарунок  своїм рідним. <br>
+                  Придбання подарункового сертифіката дозволяє отримати право на певну суму, яка може бути використана для покупки будь-якого товару в інтернет-магазині.</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h3>Співпраця</h3>
+              <p>
+                  Ми зацікавлені в співпраці з іншими компаніями та брендами для розвитку свого бізнесу і розширення аудиторії клієнтів.<br>
+                  Якщо ви зацікавлені в співпраці, можете написати нам на електронну адресу.
+              </p>
+              <div class="clearfix"></div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <h3>ТОП-товари</h3>
+              <ul class="footer-links">
+                <li><a href="more_details_bag6.html">Сумка IFJVN</a>
+                </li>
+    
+                <li><a href="more_details_wallet6.html">Портмоне SU7G</a>
+                </li>
+                <li><a href="more_details_belt5.html">Ремінь QASDN01</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+        </div>
+        </div>
+          
+          <div class="row">
+            
+            <div class="container-fluid">
+            <div class="copyright"> STYLE 2023 | Viktoriia Shalahan and Bohdana Sanotska</div>
+            </div>
+            
+          </div>
+        </div>
+        
+        </footer>
+      
+      <!--footer end-->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+        <!-- Font Awesome 5 links-->
+        <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
+  </body>
+</html>
