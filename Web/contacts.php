@@ -1,27 +1,14 @@
 <html>
    <!--Це файл filel.html-->
    <head>
-    <title>STYLE</title>
-        <meta charset="utf-8">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=IBM+Plex+Serif:wght@600&family=Noto+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=IBM+Plex+Serif:wght@600&family=Montserrat+Alternates:wght@200&family=Noto+Serif:ital,wght@1,700&family=Tenor+Sans&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/index.css" media="all">      
+        <?php require_once 'head.php'; ?>
+        <link rel="stylesheet" href="css/index.css" media="all">   
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+        <script src="contacts.js"></script>
    </head>
 <body>
     <div id="wrapper">
-      <?php require 'header.php'; ?>
+      <?php require_once 'header.php'; ?>
                       
          <section id="contact">
   
@@ -31,23 +18,23 @@
             
             <!-- Left contact page --> 
               
-              <form id="contact-form" class="form-horizontal" role="form">
+              <form action="contacts_get_message.php" method="POST" id="contact-form" class="form-horizontal" role="form">
                  
                 <div class="form-group">
                   <div class="col-sm-12">
-                    <input type="text" class="form-control" id="name" placeholder="Імʼя" name="name" value="" required>
+                    <input name="name" type="text" class="form-control" required="required" id="name" placeholder="Імʼя">
                   </div>
                 </div>
           
                 <div class="form-group">
                   <div class="col-sm-12">
-                    <input type="email" class="form-control" id="email" placeholder="Email" name="email" value="" required>
+                    <input name="email" type="email" class="form-control" required="required" id="email" placeholder="Email">
                   </div>
                 </div>
           
-                <textarea class="form-control" rows="10" placeholder="Повідомлення" name="message" required></textarea>
+                <textarea name="message" class="form-control" rows="10" placeholder="Повідомлення" required="required"></textarea>
                 
-                <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                <button name="send" class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
                   <div class="alt-send-button">
                     <i class="fa fa-paper-plane"></i><span class="send-text">Надіслати</span>
                   </div>
@@ -67,9 +54,7 @@
                     
                     <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">supportrstyle@gmail.com</a></span></i></li>
                     
-                  </ul>
-          
-                 
+                  </ul>                 
           
                 </div>
               
@@ -79,7 +64,7 @@
              <!-- Scripts -->
    
     <script src="script.js" charset="utf-8"></script>
-    <?php require 'footer.php'; ?>        
+    <?php require_once 'footer.php'; ?>        
     </div>
     </body>
     </html>
