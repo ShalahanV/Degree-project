@@ -2,6 +2,8 @@
     require_once __DIR__ . "/database/db.php";
     require_once __DIR__ . "/database/functions.php";    
 ?>
+
+<!DOCTYPE html>
 <html>
    <!--Це файл filel.html-->
    <head>
@@ -15,9 +17,9 @@
          <div class="pricing4 py-5 bg-light">
           <div class="container">
             <!-- Row  -->
-            <div class="row justify-content-center">
-              <div class="col-md-8 text-center" style="right: -180px;">
-                <h3 class="mb-3" >Шкіряний органайзер для офісного столу ручної роботи</h3>
+            <div class="row justify-content-left">
+              <div class="col-6" >
+                <h3 class="mb-3" >Шкіряні органайзери для офісного столу ручної роботи</h3>
                 <br>
               </div>
             </div>
@@ -30,7 +32,8 @@
               <!-- Column -->
               <div class="col-md-4">
                 <div class="card card-shadow border-0 mb-4">
-                  <img class="card-img-top" src="<?= $organizer["img_accessory"] ?>" alt="wrappixel kit" height="270px" width="358px">
+                  <br>
+                  <img class="card-img-top " src="<?= $organizer["img_accessory"] ?>" alt="wrappixel kit" height="240px" width="240px" >
                   <div class="p-3">
                     <h5 class="font-weight-medium mb-0"><?= $organizer["name_category"] ?> <?= $organizer["name_accessory"] ?></h5>
                     <h6 class="subtitle font-13">Матеріали: <?= $organizer["name_material"] ?></h6>
@@ -50,6 +53,7 @@
               <?php endforeach; ?>              
             </div>
           </div>
+          
         </div>        
         <?php require_once 'footer.php'; ?>        
     </div>

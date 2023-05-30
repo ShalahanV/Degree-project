@@ -12,7 +12,7 @@
             
                                 <div class="navbar-collapse collapse" id="mobile_menu">
                                     <ul class="nav navbar-nav">
-                                        <li class="active"><a href="index.php">Про нас</a></li>
+                                        <li ><a href="index.php">Про нас</a></li>
                                         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Каталог <span class="caret"></span></a>
                                             <ul class="dropdown-menu">
                                               <li><a href="organizer.php">Органайзер</a></li>

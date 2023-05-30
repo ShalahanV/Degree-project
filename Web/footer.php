@@ -71,12 +71,12 @@
               <div class="col-md-3 col-sm-6">
                 <h3>ТОП-товари</h3>
                 <ul class="footer-links">
-                  <li><a href="more_details_bag6.html">Сумка IFJVN</a>
+                  <li><a href="more_details_bag6.php">Сумка IFJVN</a>
                   </li>
       
-                  <li><a href="more_details_wallet6.html">Портмоне SU7G</a>
+                  <li><a href="more_details_wallet6.php">Портмоне SU7G</a>
                   </li>
-                  <li><a href="more_details_belt5.html">Ремінь QASDN01</a>
+                  <li><a href="more_details_belt5.php">Ремінь QASDN01</a>
                   </li>
                 </ul>
               </div>

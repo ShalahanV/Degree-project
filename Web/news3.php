@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
    <!--Це файл filel.html-->
    <head>

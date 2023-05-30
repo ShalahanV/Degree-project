@@ -50,7 +50,7 @@
         <!-- Product Pricing -->
         <div class="product-price">
           <span>3400 ₴</span>
-          <a href="#" class="cart-btn">Купити</a>
+          <a href="orderform.php" class="cart-btn">Купити</a>
         </div>
       </div>
     </main>
