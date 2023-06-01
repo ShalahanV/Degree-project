@@ -34,4 +34,11 @@
       $bags=$db->query("SELECT accessories.name_accessory,accessories.img_accessory,accessories.id_category,materials.name_material,accessories.width,accessories.length,accessories.height,accessories.price,categories.name_category  FROM accessories LEFT JOIN materials ON accessories.id_material=materials.id_material LEFT JOIN categories ON accessories.id_category=categories.id_category WHERE accessories.id_category=6");
       return $bags;
   }
+
+    function get_news_all() {
+      global $db;
+      $news=$db->query("SELECT news.id_new,date_format(`time`,'%d'),months.name_month,months.short_name_month,news.name,date_format(`time`,'%H:%i'),news.point_one,news.point_two,colors.news_class,news.text FROM news  LEFT JOIN months ON news.id_month=months.id_month LEFT JOIN colors ON news.id_color_name=colors.id_color ORDER BY `time` DESC");
+      return $news;
+  }
+    
 ?>

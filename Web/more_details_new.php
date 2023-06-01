@@ -1,4 +1,9 @@
+<?php
+    require_once __DIR__ . "/database/db.php"; 
+?>
+
 <!DOCTYPE html>
+<html lang="en">
 <html>
    <!--Це файл filel.html-->
    <head>
@@ -9,12 +14,18 @@
     <div id="wrapper">
       <?php require_once 'header.php'; ?>  
             <main class="l-card">
+            <?php
+            $id_new = $_GET["id_new"];
+            $query = $db->prepare("SELECT * FROM news WHERE id_new = :id_new");
+            $query->execute(["id_new" => $id_new]);
+            $new = $query->FETCH(PDO::FETCH_ASSOC);
+            if(!$new){
+              echo '<h5 class="card-title">Запис не знайдено</h5>';
+              die();
+          }
+            ?>
                 <section class="l-card__text">
-                    <p>
-                      Дорогі друзі, у нас чудова новина!<br>
-                      Тепер у вас є можливість скласти свій подарунковий набір самостійно, ввімкнувши будь-які вироби одного кольору! Але це ще не все! На всі персонально складені набори ми робимо знижку - 10% від загальної вартості замовлення та даруємо подарункову упаковку.
-                          
-                    </p>
+                    <p><?= $new["text"] ?></p>                   
                 </section>
                 <section class="l-card__user">
                     <div class="l-card__userInfo">

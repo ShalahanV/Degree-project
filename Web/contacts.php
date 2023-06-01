@@ -5,7 +5,6 @@
         <?php require_once 'head.php'; ?>
         <link rel="stylesheet" href="css/index.css" media="all">   
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
-        <script src="contacts.js"></script>
    </head>
 <body>
     <div id="wrapper">
@@ -63,9 +62,9 @@
             
           </section>  
              <!-- Scripts -->
-   
+
     <script src="script.js" charset="utf-8"></script>
-    <?php require_once 'footer.php'; ?>        
+    <?php require_once 'footer.php'; ?>      
     </div>
     </body>
     </html>
