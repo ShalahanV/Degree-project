@@ -22,17 +22,17 @@
                  
                 <div class="form-group">
                   <div class="col-sm-12">
-                    <input name="name" type="text" class="form-control" required="required" id="name" placeholder="Імʼя">
+                    <input name="name_contact" type="text" class="form-control" required="required" id="name" placeholder="Імʼя">
                   </div>
                 </div>
           
                 <div class="form-group">
                   <div class="col-sm-12">
-                    <input name="email" type="email" class="form-control" required="required" id="email" placeholder="Email">
+                    <input name="email_contact" type="email" class="form-control" required="required" id="email" placeholder="Email">
                   </div>
                 </div>
           
-                <textarea name="message" class="form-control" rows="10" placeholder="Повідомлення" required="required"></textarea>
+                <textarea name="message_contact" class="form-control" rows="10" placeholder="Повідомлення" required="required"></textarea>
                 
                 <button name="send" class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
                   <div class="alt-send-button">
@@ -59,11 +59,10 @@
                 </div>
               
             </div>
-            
+            <br>
           </section>  
              <!-- Scripts -->
-
-    <script src="script.js" charset="utf-8"></script>
+    <!--<script src="script.js" charset="utf-8"></script>-->
     <?php require_once 'footer.php'; ?>      
     </div>
     </body>

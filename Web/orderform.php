@@ -13,14 +13,10 @@
                       
       <div class="form-container">
     <h2>Замовлення</h2>
-    <form>
+    <form method="POST">
       <div class="form-group">
-        <label for="name">Ім'я:</label>
+        <label for="name">ПІБ:</label>
         <input type="text" id="name" name="name" required>
-      </div>
-      <div class="form-group">
-        <label for="surname">Прізвище:</label>
-        <input type="text" id="surname" name="surname" required>
       </div>
       <div class="form-group">
         <label for="product">Вид товару:</label>
@@ -35,20 +31,20 @@
         <input type="text" id="color" name="color" required>
       </div>
       <div class="form-group">
-        <label for="model">Адреса:</label>
-        <input type="text" id="address" name="address" required>
-      </div>
-      <div class="form-group">
         <label for="phone">Телефон:</label>
         <input type="text" id="phone" name="phone" required>
       </div>
+      <div class="form-group">
+        <label for="model">Адреса:</label>
+        <input type="text" id="address" name="address" required>
+      </div>      
       <button type="submit">Відправити</button>
     </form>
     
   </div>
           <!-- Scripts -->
    
-    <script src="script.js" charset="utf-8"></script>
+    <!--<script src="script.js" charset="utf-8"></script>-->
     <?php require_once 'footer.php'; ?>        
     </div>
     </body>
