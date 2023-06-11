@@ -17,9 +17,9 @@
 
       <!-- Left Column / Headphones Image -->
       <div class="left-column">
-        <img data-image="black" src="images/il_1588xN.2575282255_c552.avif" alt="" height="430px">
-        <img data-image="red" src="images/il_1588xN.2575285291_51ka.webp" alt="" height="430px">
-        <img data-image="brown" class="active" src="images/il_1588xN.2575283441_ck6p.webp" alt="" height="430px">
+        <img data-image="black" src="images/il_1588xN.3602243325_4sss.webp" alt="" height="430px">
+        <img data-image="red" src="images/il_1588xN.3602244653_mh6z.webp" alt="" height="430px">
+        <img data-image="brown" class="active" src="images/il_1588xN.3554603848_tqhd.webp" alt="" height="430px">
       </div>
 
       <!-- Right Column -->
@@ -28,8 +28,8 @@
         <!-- Product Description -->
         <div class="product-description">
           <span>Шкіряний органайзер</span>
-          <h1>Органайзер DKIOM</h1>
-          <p>ВИШУКАНА МАЙСТЕРНІСТЬ ВИКОРИСТУВАННЯ ШКІРИ - Органайзер Megagear із PU шкіри виготовлено з високоякісної PU шкіри, прикріпленої тонкими та міцними швами, що надає йому елегантного вигляду та міцного корпусу, поєднуючи приємне відчуття та гарний вигляд шкіри без шкоди для універсальності та зручності.</p>
+          <h1>Органайзер BMLK</h1>
+          <p>Цей чудовий настільний лоток для камердинера – це гарний ящик для зберігання дрібниць, таких як ключі, дрібниці, аксесуари, косметика, навушники, кабелі для передачі даних. Це дуже корисно для того, щоб все було впорядковано на вашому офісному столі. Це позбавляє вас стресу від пошуку дрібниць, які можна дуже легко втратити.</p>
         </div>
 
         <!-- Product Configuration -->
@@ -53,21 +53,19 @@
                 <label for="brown"><span></span></label>
               </div>
             </div>
-
           </div>          
 
         <!-- Product Pricing -->
         <div class="product-price">
-          <span>450 ₴</span>
+          <span>410 ₴</span>
           <a href="orderform.php" class="cart-btn">Купити</a>
         </div>
       </div>
-      <br><br>
     </main>
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-    <!--<script src="script.js" charset="utf-8"></script>-->
+    <script src="script.js" charset="utf-8"></script>
     <?php require_once 'footer.php'; ?>
   </body>
 </html>

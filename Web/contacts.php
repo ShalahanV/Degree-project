@@ -1,3 +1,71 @@
+<?php
+require_once __DIR__ . "/database/db.php";
+
+$contactNameError = $contactEmailError = $contactMessageError = "";
+$contactName = $contactEmail =$contactMessage = "";
+$isPassed = true;
+
+if (isset($_POST['send'])){
+    if (empty($_POST['name_contact'])) {
+        $contactNameError = "Введіть ім'я";
+        $isPassed = false;
+    } else {
+        $contactName = filter_var(trim($_POST['name_contact']), FILTER_UNSAFE_RAW);
+
+        if (mb_strlen($contactName) < 2 || mb_strlen($contactName) > 50) {
+            $contactNameError = "Недопустима довжина імені";
+            $isPassed = false;
+        }
+    }
+
+    if (empty($_POST['email_contact'])) {
+        $contactEmailError = "Введіть Email";
+        $isPassed = false;
+    } else {
+        $contactEmail = filter_var(trim($_POST['email_contact']), FILTER_SANITIZE_EMAIL);
+
+        if (mb_strlen($contactEmail) > 100) {
+          $contactEmailError = "Недопустима довжина Email";
+          $isPassed = false;
+        }
+    }
+
+    if (empty($_POST['message_contact'])) {
+        $contactMessageError = "Введіть повідомлення";
+        $isPassed = false;
+    } else {
+        $contactMessage = trim($_POST['message_contact']);
+
+        if (mb_strlen($contactMessage) < 10 || mb_strlen($contactMessage) > 190) {
+            $contactMessageError = "Недопустима довжина повідомлення";
+            $isPassed = false;
+        }
+    }
+
+    if ($isPassed === true) {
+        $query = "INSERT INTO `contacts` (`name_contact`, `email_contact`, `message_contact`, `time_contact`) VALUES (:name_contact, :email_contact, :message_contact, NOW())";
+        $params = [
+            "name_contact" => $contactName,
+            "email_contact" => $contactEmail,
+            "message_contact" => $contactMessage,
+        ];
+
+        $prepare = $db->prepare($query);
+        $prepare->execute($params);
+
+        $toEmail = 'ok23.sanotska.bohdana@vtc.vn.ua';
+        $mailHeaders = "Name: " . $contactName .
+        "\r\n Email: " . $contactEmail .
+        "\r\n Message: " . $contactMessage . " \r\n";
+    
+        mail($toEmail, $contactName, $mailHeaders);
+
+        header('location: ./index.php');
+    }
+}
+
+?>
+
 <!DOCTYPE html>
 <html>
    <!--Це файл filel.html-->
@@ -18,23 +86,26 @@
             
             <!-- Left contact page --> 
               
-              <form action="contacts_get_message.php" method="POST" id="contact-form" class="form-horizontal" role="form">
+              <form method="POST" id="contact-form" class="form-horizontal" role="form">
                  
                 <div class="form-group">
                   <div class="col-sm-12">
-                    <input name="name_contact" type="text" class="form-control" required="required" id="name" placeholder="Імʼя">
+                    <input name="name_contact" type="text" class="form-control" required id="name" placeholder="Імʼя">
+                    <p class="error"><?php echo $contactNameError ?></p>
                   </div>
                 </div>
           
                 <div class="form-group">
                   <div class="col-sm-12">
-                    <input name="email_contact" type="email" class="form-control" required="required" id="email" placeholder="Email">
+                    <input name="email_contact" type="email" class="form-control" required id="email" placeholder="Email">
+                    <p class="error"><?php echo $contactEmailError ?></p>
                   </div>
                 </div>
           
-                <textarea name="message_contact" class="form-control" rows="10" placeholder="Повідомлення" required="required"></textarea>
+                <textarea name="message_contact" class="form-control" rows="10" placeholder="Повідомлення" required></textarea>
+                <p class="error"><?php echo $contactMessageError ?></p>
                 
-                <button name="send" class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                <button name="send" class="btn btn-primary send-button" id="submit" type="submit" value="send">
                   <div class="alt-send-button">
                     <i class="fa fa-paper-plane"></i><span class="send-text">Надіслати</span>
                   </div>

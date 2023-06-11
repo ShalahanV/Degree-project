@@ -45,7 +45,7 @@
                     </ul>
                     <div class="d-flex mt-3 align-items-center">
                       <h2 class="price"><?= $wallet["price"] ?> ₴</h2>
-                      <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0" href="more_details_wallet1.php">Переглянути</a></div>
+                      <div class="ml-auto"><a class="btn btn-danger-gradiant rounded-pill text-white btn-md border-0" href="<?= $wallet["more_details"] ?>.php">Переглянути</a></div>
                     </div>
                   </div>
                 </div>

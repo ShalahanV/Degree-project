@@ -19,7 +19,7 @@
       <div class="left-column">
         <img data-image="black" src="images/il_1588xN.2575282255_c552.avif" alt="" height="430px">
         <img data-image="red" src="images/il_1588xN.2575285291_51ka.webp" alt="" height="430px">
-        <img data-image="brown" class="active" src="images/il_1588xN.2527639834_r6in.webp" alt="" height="430px">
+        <img data-image="brown" class="active" src="images/il_1588xN.2575283441_ck6p.webp" alt="" height="430px">
       </div>
 
       <!-- Right Column -->
@@ -28,8 +28,8 @@
         <!-- Product Description -->
         <div class="product-description">
           <span>Шкіряний органайзер</span>
-          <h1>Органайзер DKSIN</h1>
-          <p>Органайзер зручно зберігає ваше обладнання, зберігаючи до нього легкий доступ. Практичний і функціональний аксесуар для дому та офісу.</p>
+          <h1>Органайзер SOFBY</h1>
+          <p>Органайзер призначений для щоденного використання, і він допоможе вам легко дістати свої речі, незалежно від того, перебуваєте ви вдома чи в офісі.</p>
         </div>
 
         <!-- Product Configuration -->
@@ -57,7 +57,7 @@
 
         <!-- Product Pricing -->
         <div class="product-price">
-          <span>490 ₴</span>
+          <span>400 ₴</span>
           <a href="orderform.php" class="cart-btn">Купити</a>
         </div>
       </div>

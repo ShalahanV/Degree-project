@@ -29,14 +29,18 @@
                                     </ul>
                                     <ul class="nav navbar-nav">
                                         <li>
-                                            <form action="" class="navbar-form">
-                                                <div class="form-group">
-                                                    <div class="input-group">
-                                                        <input type="search" name="search" id="" placeholder="Шукайте будь-що тут..." class="form-control">
-                                                        <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                                        <form action="search.php" class="navbar-form" method="POST">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="search" name="search" id="" placeholder="Шукайте тут..." class="form-control">
+                                                    <div class="input-group-btn">
+                                                        <button type="submit" class="btn btn-default">
+                                                            <span class="glyphicon glyphicon-search"></span>
+                                                        </button>
                                                     </div>
                                                 </div>
-                                            </form>
+                                            </div>
+                                        </form>
                                         </li>
                                     </ul>            
                                  

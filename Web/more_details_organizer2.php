@@ -17,9 +17,9 @@
 
       <!-- Left Column / Headphones Image -->
       <div class="left-column">
-        <img data-image="black" src="images/il_1588xN.2575282255_c552.avif" alt="" height="430px">
-        <img data-image="red" src="images/il_1588xN.2575285291_51ka.webp" alt="" height="430px">
-        <img data-image="brown" class="active" src="images/il_1588xN.2575283441_ck6p.webp" alt="" height="430px">
+        <img data-image="black" src="images/il_1588xN.2430624597_67i4.webp" alt="" height="430px">
+        <img data-image="red" src="images/il_1588xN.2384186432_3e3f.webp" alt="" height="430px">
+        <img data-image="brown" class="active" src="images/il_1588xN.2431796027_jtfq.webp" alt="" height="430px" >
       </div>
 
       <!-- Right Column -->
@@ -28,8 +28,8 @@
         <!-- Product Description -->
         <div class="product-description">
           <span>Шкіряний органайзер</span>
-          <h1>Органайзер SOFBY</h1>
-          <p>Органайзер призначений для щоденного використання, і він допоможе вам легко дістати свої речі, незалежно від того, перебуваєте ви вдома чи в офісі.</p>
+          <h1>Органайзер QWSA</h1>
+          <p>Наш високоякісний органайзер з натуральної шкіри, на 4 кнопки. Ідеально підходить для всіх ваших щоденних аксесуарів, ключів, годинників, ювелірних виробів тощо. Це чудова ідея подарунка на весілля, новосілля, ювілей, нареченого тощо.</p>
         </div>
 
         <!-- Product Configuration -->
@@ -57,7 +57,7 @@
 
         <!-- Product Pricing -->
         <div class="product-price">
-          <span>400 ₴</span>
+          <span>500 ₴</span>
           <a href="orderform.php" class="cart-btn">Купити</a>
         </div>
       </div>

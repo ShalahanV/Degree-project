@@ -16,7 +16,7 @@
          <h3 style="text-align:center;">
             Акції та знижки
         </h3> 
-     <br>
+    <br>
          <div class="container">
             <div class="row">
             <?php

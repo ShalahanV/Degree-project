@@ -1,3 +1,35 @@
+<?php
+require_once __DIR__ . "/database/db.php";
+$newsletterEmailError = "";
+$newsletterEmail = "";
+$isPassed = true;
+
+if (isset($_POST['footer_email'])) {
+  
+  if (empty($_POST['email_newsletter'])) {
+    $newsletterEmailError = "Введіть Email";
+    $isPassed = false;
+} else {
+    $newsletterEmail = filter_var(trim($_POST['email_newsletter']), FILTER_SANITIZE_EMAIL);
+
+    if (mb_strlen($contactEmail) > 100) {
+      $newsletterEmailError = "Недопустима довжина Email";
+      $isPassed = false;
+    }
+}
+
+if ($isPassed === true) {
+  $query = "INSERT INTO `mailings` (`email_newsletter`) VALUES (:email_newsletter)";
+  $params = [
+    "email_newsletter" => $newsletterEmail,
+];
+
+  $prepare = $db->prepare($query);
+  $prepare->execute($params);
+}
+}
+?>
+
 <footer>
           <div class="footer-wrap">
           <div class="container first_class">
@@ -7,9 +39,10 @@
                   <p>Отримайте найновішу інформацію про нові аксесуари STYLE.</p>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                <form class="newsletter">
-                   <input type="text" placeholder="Email Address"> 
-                                                                <button class="newsletter_submit_btn" type="submit"><i class="fa fa-paper-plane"></i></button>  
+                <form class="newsletter" method="POST">
+                   <input type="email" name="email_newsletter" placeholder="Email Address" required> 
+                   <p class="error"><?php echo $newsletterEmailError ?></p>
+                      <button class="newsletter_submit_btn" name="footer_email" type="submit"><i class="fa fa-paper-plane"></i></button>  
                 </form>
                 
                 </div>

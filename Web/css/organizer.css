@@ -346,7 +346,7 @@ footer{
   background: #333;
 }
 
-footer .newsletter input[type="text"] {
+footer .newsletter input[type="email"] {
   width: 100%;
   background: #fff;
   color: #333;
@@ -410,3 +410,12 @@ footer li{
 .copyright {
   font-size: 13px;}
 } 
+
+.navbar-collapse button[type="submit"] {
+  background-color: #eee;
+    color: #555;
+}
+
+.error {
+  color: red;
+}
