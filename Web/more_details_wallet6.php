@@ -17,11 +17,11 @@
 
       <!-- Left Column / Headphones Image -->
       <div class="left-column">
-        <img data-image="bodily" src="images/il_1588xN.3450348859_squk.avif" alt="" height="430px">
-        <img data-image="black" src="images/il_1588xN.3450348855_5c7c.avif" alt="" height="430px">
-        <img data-image="blue" src="images/il_1588xN.3450348855_5c7c.avif" alt="" height="430px">
-        <img data-image="brown" class="active" src="images/il_1588xN.1808957379_sf25.avif" alt="" height="430px">
-        <img data-image="green" src="images/il_1588xN.3402687008_sgkm.avif" alt="" height="430px" >
+        <img data-image="bodily" src="Images/il_1588xN.3450348859_squk.avif" alt="" height="430px">
+        <img data-image="black" src="Images/il_1588xN.3450348855_5c7c.avif" alt="" height="430px">
+        <img data-image="blue" src="Images/il_1588xN.3450348855_5c7c.avif" alt="" height="430px">
+        <img data-image="brown" class="active" src="Images/il_1588xN.1808957379_sf25.avif" alt="" height="430px">
+        <img data-image="green" src="Images/il_1588xN.3402687008_sgkm.avif" alt="" height="430px" >
       </div>
 
       <!-- Right Column -->

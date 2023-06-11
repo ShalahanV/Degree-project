@@ -17,12 +17,12 @@
 
       <!-- Left Column / Headphones Image -->
       <div class="left-column">
-        <img data-image="black" src="images/il_1588xN.4123460865_bjfi.webp" alt="" height="430px">
-        <img data-image="red" src="images/il_1588xN.4123468843_6xrj.webp" alt="" height="430px">
-        <img data-image="blue" src="images/il_1588xN.4075815342_r1nr.webp" alt="" height="430px">
-        <img data-image="green" src="images/il_1588xN.4075815364_iwot.webp" alt="" height="430px">
-        <img data-image="white" src="images/il_1588xN.4075815318_el07.webp" alt="" height="430px">
-        <img data-image="brown" class="active" src="images/il_1588xN.4123460855_i101.webp" alt="" height="430px">
+        <img data-image="black" src="Images/il_1588xN.4123460865_bjfi.webp" alt="" height="430px">
+        <img data-image="red" src="Images/il_1588xN.4123468843_6xrj.webp" alt="" height="430px">
+        <img data-image="blue" src="Images/il_1588xN.4075815342_r1nr.webp" alt="" height="430px">
+        <img data-image="green" src="Images/il_1588xN.4075815364_iwot.webp" alt="" height="430px">
+        <img data-image="white" src="Images/il_1588xN.4075815318_el07.webp" alt="" height="430px">
+        <img data-image="brown" class="active" src="Images/il_1588xN.4123460855_i101.webp" alt="" height="430px">
       </div>
 
       <!-- Right Column -->

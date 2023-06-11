@@ -17,9 +17,9 @@
 
       <!-- Left Column / Headphones Image -->
       <div class="left-column">
-        <img data-image="black" src="images/il_1588xN.2575282255_c552.avif" alt="" height="430px">
-        <img data-image="red" src="images/il_1588xN.2575285291_51ka.webp" alt="" height="430px">
-        <img data-image="brown" class="active" src="images/il_1588xN.2575283441_ck6p.webp" alt="" height="430px">
+        <img data-image="black" src="Images/il_1588xN.2575282255_c552.avif" alt="" height="430px">
+        <img data-image="red" src="Images/il_1588xN.2575285291_51ka.webp" alt="" height="430px">
+        <img data-image="brown" class="active" src="Images/il_1588xN.2575283441_ck6p.webp" alt="" height="430px">
       </div>
 
       <!-- Right Column -->
