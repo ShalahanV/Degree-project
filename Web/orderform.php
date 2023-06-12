@@ -103,7 +103,7 @@ if (isset($_POST['order'])){
         
         $toEmail = 'ok23.sanotska.bohdana@vtc.vn.ua';
         $mailHeaders = "Name: " . $orderName .
-            "\r\n Message: " . " нове замовлення\r\n";
+            "\r\nMessage: " . " нове замовлення\r\n";
         mail($toEmail, $orderName, $mailHeaders);
     
         header('location: ./index.php');
