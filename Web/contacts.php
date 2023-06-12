@@ -55,8 +55,8 @@ if (isset($_POST['send'])){
 
         $toEmail = 'ok23.sanotska.bohdana@vtc.vn.ua';
         $mailHeaders = "Name: " . $contactName .
-        "\r\n Email: " . $contactEmail .
-        "\r\n Message: " . $contactMessage . " \r\n";
+        "\r\nEmail: " . $contactEmail .
+        "\r\nMessage: " . $contactMessage . " \r\n";
     
         mail($toEmail, $contactName, $mailHeaders);
 
